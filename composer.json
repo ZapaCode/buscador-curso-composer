@@ -21,6 +21,9 @@
             "./functions.php"
         ],
         "psr-4": {
+            "files": [
+                "functions.php"
+            ],
             "Alura\\BuscadorDeCurso\\" : "src/"
         }
     },
@@ -44,5 +47,7 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do codigo. PHPAN, PHPCS e PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": ["buscar-cursos.php"]
 }

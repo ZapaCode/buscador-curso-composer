@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 require 'vendor/autoload.php'; //Utilizado para executar as dependencias abaixo, se ele não vao funcionar
